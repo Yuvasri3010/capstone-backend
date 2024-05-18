@@ -1,5 +1,5 @@
 //custom middleware
-
+import jwt from "jsonwebtoken";
 
 
 export const auth = (request, response, next) => {
